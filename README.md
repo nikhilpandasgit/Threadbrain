@@ -12,7 +12,6 @@ docker-compose logs -f
 # Stop services
 docker-compose down
 
-============================================================
 
 ### PRODUCTION ###
 
@@ -22,7 +21,6 @@ docker-compose -f docker-compose.prod.yml up --build -d
 # Stop production
 docker-compose -f docker-compose.prod.yml down
 
-=============================================================
 
 ### USEFUL COMMANDS ###
 
